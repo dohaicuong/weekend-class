@@ -11,7 +11,9 @@
     "dev": "nexus dev",
     "build": "nexus build",
     "start": "node .nexus/build/api",
-    "test": "jest"
+    "test": "jest",
+    "migrate:save": "prisma migrate save --experimental",
+    "migrate:up": "prisma migrate up --experimental"
   },
   "prettier": {
     "semi": false,
@@ -33,6 +35,6 @@
         }
       }
     },
-    "testEnvironment": "node"
+    "testEnvironment": "./tests/nexus-test-environment.js"
   }
 }
