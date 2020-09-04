@@ -21,6 +21,7 @@
   },
   "include": [
     "types.d.ts",
-    "api"
+    "api",
+    "tests"
   ]
 }

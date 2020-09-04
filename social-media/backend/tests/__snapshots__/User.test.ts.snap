@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User node should return seeded user 1`] = `
+Object {
+  "node": Object {
+    "avatar": null,
+    "email": "beatyshot@gmail.com",
+    "name": "Yuki",
+  },
+}
+`;
+
+exports[`User nodes should return seeded users 1`] = `
+Object {
+  "nodes": Array [
+    Object {
+      "avatar": null,
+      "email": "beatyshot@gmail.com",
+      "name": "Yuki",
+    },
+    Object {
+      "avatar": null,
+      "email": "beatyneko@gmail.com",
+      "name": "Yami",
+    },
+  ],
+}
+`;
+
+exports[`User users should return seeded data 1`] = `
+Object {
+  "users": Array [
+    Object {
+      "avatar": null,
+      "email": "beatyshot@gmail.com",
+      "id": "VXNlcjox",
+      "name": "Yuki",
+    },
+    Object {
+      "avatar": null,
+      "email": "beatyneko@gmail.com",
+      "id": "VXNlcjoy",
+      "name": "Yami",
+    },
+  ],
+}
+`;
