@@ -15,13 +15,6 @@ schema.objectType({
   }
 })
 
-schema.extendType({
-  type: 'Query',
-  definition: t => {
-    t.crud.users()
-  }
-})
-
 // AUTH PAYLOAD
 schema.objectType({
   name: 'AuthPayload',

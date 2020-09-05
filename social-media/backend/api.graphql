@@ -37,7 +37,6 @@ interface Node {
 type Query {
   node(id: ID!): Node
   nodes(ids: [ID!]!): [Node!]
-  users(after: UserWhereUniqueInput, before: UserWhereUniqueInput, first: Int, last: Int): [User!]!
 }
 
 input SignupInput {
@@ -54,9 +53,4 @@ type User implements Node {
   """Relay ID"""
   id: ID!
   name: String!
-}
-
-input UserWhereUniqueInput {
-  email: String
-  id: String
 }
